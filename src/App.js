@@ -22,7 +22,7 @@ function App() {
         {
           // eslint-disable-next-line array-callback-return
           foodList.map((food) => {
-            <p>{food.title}</p>;
+            return <p>{food.title}</p>;
           })
         }
       </div>
